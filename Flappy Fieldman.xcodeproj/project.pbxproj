@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A8813FE1AC07DF4003ED336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8813FD1AC07DF4003ED336 /* AppDelegate.swift */; };
+		4A8814001AC07DF4003ED336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8813FF1AC07DF4003ED336 /* ViewController.swift */; };
+		4A8814031AC07DF4003ED336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8814011AC07DF4003ED336 /* Main.storyboard */; };
+		4A8814051AC07DF4003ED336 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8814041AC07DF4003ED336 /* Images.xcassets */; };
+		4A8814081AC07DF4003ED336 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8814061AC07DF4003ED336 /* LaunchScreen.xib */; };
+		4A8814141AC07DF4003ED336 /* Flappy_FieldmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8814131AC07DF4003ED336 /* Flappy_FieldmanTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A88140E1AC07DF4003ED336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A8813F01AC07DF4003ED336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A8813F71AC07DF4003ED336;
+			remoteInfo = "Flappy Fieldman";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A8813F81AC07DF4003ED336 /* Flappy Fieldman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flappy Fieldman.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8813FC1AC07DF4003ED336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A8813FD1AC07DF4003ED336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A8813FF1AC07DF4003ED336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A8814021AC07DF4003ED336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A8814041AC07DF4003ED336 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A8814071AC07DF4003ED336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4A88140D1AC07DF4003ED336 /* Flappy FieldmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy FieldmanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8814121AC07DF4003ED336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A8814131AC07DF4003ED336 /* Flappy_FieldmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flappy_FieldmanTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A8813F51AC07DF4003ED336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A88140A1AC07DF4003ED336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A8813EF1AC07DF4003ED336 = {
+			isa = PBXGroup;
+			children = (
+				4A8813FA1AC07DF4003ED336 /* Flappy Fieldman */,
+				4A8814101AC07DF4003ED336 /* Flappy FieldmanTests */,
+				4A8813F91AC07DF4003ED336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A8813F91AC07DF4003ED336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A8813F81AC07DF4003ED336 /* Flappy Fieldman.app */,
+				4A88140D1AC07DF4003ED336 /* Flappy FieldmanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A8813FA1AC07DF4003ED336 /* Flappy Fieldman */ = {
+			isa = PBXGroup;
+			children = (
+				4A8813FD1AC07DF4003ED336 /* AppDelegate.swift */,
+				4A8813FF1AC07DF4003ED336 /* ViewController.swift */,
+				4A8814011AC07DF4003ED336 /* Main.storyboard */,
+				4A8814041AC07DF4003ED336 /* Images.xcassets */,
+				4A8814061AC07DF4003ED336 /* LaunchScreen.xib */,
+				4A8813FB1AC07DF4003ED336 /* Supporting Files */,
+			);
+			path = "Flappy Fieldman";
+			sourceTree = "<group>";
+		};
+		4A8813FB1AC07DF4003ED336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A8813FC1AC07DF4003ED336 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A8814101AC07DF4003ED336 /* Flappy FieldmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A8814131AC07DF4003ED336 /* Flappy_FieldmanTests.swift */,
+				4A8814111AC07DF4003ED336 /* Supporting Files */,
+			);
+			path = "Flappy FieldmanTests";
+			sourceTree = "<group>";
+		};
+		4A8814111AC07DF4003ED336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A8814121AC07DF4003ED336 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A8813F71AC07DF4003ED336 /* Flappy Fieldman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A8814171AC07DF4003ED336 /* Build configuration list for PBXNativeTarget "Flappy Fieldman" */;
+			buildPhases = (
+				4A8813F41AC07DF4003ED336 /* Sources */,
+				4A8813F51AC07DF4003ED336 /* Frameworks */,
+				4A8813F61AC07DF4003ED336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flappy Fieldman";
+			productName = "Flappy Fieldman";
+			productReference = 4A8813F81AC07DF4003ED336 /* Flappy Fieldman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A88140C1AC07DF4003ED336 /* Flappy FieldmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A88141A1AC07DF4003ED336 /* Build configuration list for PBXNativeTarget "Flappy FieldmanTests" */;
+			buildPhases = (
+				4A8814091AC07DF4003ED336 /* Sources */,
+				4A88140A1AC07DF4003ED336 /* Frameworks */,
+				4A88140B1AC07DF4003ED336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A88140F1AC07DF4003ED336 /* PBXTargetDependency */,
+			);
+			name = "Flappy FieldmanTests";
+			productName = "Flappy FieldmanTests";
+			productReference = 4A88140D1AC07DF4003ED336 /* Flappy FieldmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A8813F01AC07DF4003ED336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = GirlCode;
+				TargetAttributes = {
+					4A8813F71AC07DF4003ED336 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					4A88140C1AC07DF4003ED336 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 4A8813F71AC07DF4003ED336;
+					};
+				};
+			};
+			buildConfigurationList = 4A8813F31AC07DF4003ED336 /* Build configuration list for PBXProject "Flappy Fieldman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A8813EF1AC07DF4003ED336;
+			productRefGroup = 4A8813F91AC07DF4003ED336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A8813F71AC07DF4003ED336 /* Flappy Fieldman */,
+				4A88140C1AC07DF4003ED336 /* Flappy FieldmanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A8813F61AC07DF4003ED336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8814031AC07DF4003ED336 /* Main.storyboard in Resources */,
+				4A8814081AC07DF4003ED336 /* LaunchScreen.xib in Resources */,
+				4A8814051AC07DF4003ED336 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A88140B1AC07DF4003ED336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A8813F41AC07DF4003ED336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8814001AC07DF4003ED336 /* ViewController.swift in Sources */,
+				4A8813FE1AC07DF4003ED336 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8814091AC07DF4003ED336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8814141AC07DF4003ED336 /* Flappy_FieldmanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A88140F1AC07DF4003ED336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A8813F71AC07DF4003ED336 /* Flappy Fieldman */;
+			targetProxy = 4A88140E1AC07DF4003ED336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A8814011AC07DF4003ED336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A8814021AC07DF4003ED336 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A8814061AC07DF4003ED336 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A8814071AC07DF4003ED336 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A8814151AC07DF4003ED336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A8814161AC07DF4003ED336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A8814181AC07DF4003ED336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flappy Fieldman/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A8814191AC07DF4003ED336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flappy Fieldman/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A88141B1AC07DF4003ED336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flappy FieldmanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flappy Fieldman.app/Flappy Fieldman";
+			};
+			name = Debug;
+		};
+		4A88141C1AC07DF4003ED336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flappy FieldmanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flappy Fieldman.app/Flappy Fieldman";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A8813F31AC07DF4003ED336 /* Build configuration list for PBXProject "Flappy Fieldman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8814151AC07DF4003ED336 /* Debug */,
+				4A8814161AC07DF4003ED336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A8814171AC07DF4003ED336 /* Build configuration list for PBXNativeTarget "Flappy Fieldman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8814181AC07DF4003ED336 /* Debug */,
+				4A8814191AC07DF4003ED336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A88141A1AC07DF4003ED336 /* Build configuration list for PBXNativeTarget "Flappy FieldmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A88141B1AC07DF4003ED336 /* Debug */,
+				4A88141C1AC07DF4003ED336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A8813F01AC07DF4003ED336 /* Project object */;
+}
