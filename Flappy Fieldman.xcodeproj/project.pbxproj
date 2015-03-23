@@ -13,6 +13,9 @@
 		4A8814051AC07DF4003ED336 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8814041AC07DF4003ED336 /* Images.xcassets */; };
 		4A8814081AC07DF4003ED336 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8814061AC07DF4003ED336 /* LaunchScreen.xib */; };
 		4A8814141AC07DF4003ED336 /* Flappy_FieldmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8814131AC07DF4003ED336 /* Flappy_FieldmanTests.swift */; };
+		4A8814201AC07FA7003ED336 /* gray-background-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A88141D1AC07FA7003ED336 /* gray-background-4.png */; };
+		4A8814211AC07FA7003ED336 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A88141E1AC07FA7003ED336 /* images.png */; };
+		4A8814221AC07FA7003ED336 /* url.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A88141F1AC07FA7003ED336 /* url.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		4A88140D1AC07DF4003ED336 /* Flappy FieldmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy FieldmanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8814121AC07DF4003ED336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A8814131AC07DF4003ED336 /* Flappy_FieldmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flappy_FieldmanTests.swift; sourceTree = "<group>"; };
+		4A88141D1AC07FA7003ED336 /* gray-background-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gray-background-4.png"; sourceTree = "<group>"; };
+		4A88141E1AC07FA7003ED336 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		4A88141F1AC07FA7003ED336 /* url.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = url.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		4A8813FB1AC07DF4003ED336 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4A88141D1AC07FA7003ED336 /* gray-background-4.png */,
+				4A88141E1AC07FA7003ED336 /* images.png */,
+				4A88141F1AC07FA7003ED336 /* url.png */,
 				4A8813FC1AC07DF4003ED336 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A8814031AC07DF4003ED336 /* Main.storyboard in Resources */,
+				4A8814211AC07FA7003ED336 /* images.png in Resources */,
+				4A8814201AC07FA7003ED336 /* gray-background-4.png in Resources */,
+				4A8814221AC07FA7003ED336 /* url.png in Resources */,
 				4A8814081AC07DF4003ED336 /* LaunchScreen.xib in Resources */,
 				4A8814051AC07DF4003ED336 /* Images.xcassets in Resources */,
 			);
